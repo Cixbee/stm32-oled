@@ -1,0 +1,21 @@
+build
+mx.scratch
+!.settings
+
+# 预编译二进制库（无需上传，CubeMX 可重新生成）
+*.lib
+*.a
+
+# 编译产物
+*.o
+*.elf
+*.map
+*.bin
+*.hex
+*.su
+*.d
+*.idx
+
+# 系统文件
+Thumbs.db
+.DS_Store
